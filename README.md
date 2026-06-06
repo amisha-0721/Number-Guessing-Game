@@ -39,6 +39,8 @@ Number-Guessing-Game/
 ├── NumberGuessingGame.js
 └── README.md
 ```
+---
+
 ## ⚙️ How to Run
 
 1. Clone this repository
