@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(237, 211, 128);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2vh;
+    font-size:xxx-large;
+}
+
+.userInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.userInput input{
+    height: 5.5vh;
+    width: 35vw;
+}
+
+.box{
+    display: grid;
+    grid-template-columns: repeat(3,4vh);
+    gap : 10vh;
+    justify-content: center;
+    margin-top: -5vh ;
+}
+
+.box button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 2vh;
+}
+
+.submit{
+    display:grid;
+    grid-template-columns: repeat(2,10vh);
+    justify-content: center;
+    gap:1vh;
+    margin-top: -6vh;
+}
+
+.Lives-Display{
+    padding: 2vh;
+    font-size:6vh;
+    font-weight: bold;
+    color: blue;
+}
